@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        String message = "<h1>Hello, World, I am a servlet,chú ý nhánh của feature hello-19.06.2025!</h1>";
+        String message = "<h1>Hello, World, I am a servlet,chú ý nhánh của feature-hello đã đã sửa-19.06.2025!</h1>";
         out.println(message);
 
     }
